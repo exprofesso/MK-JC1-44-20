@@ -24,7 +24,7 @@ public class HomeWorkMain1_3 {
         if(!answer.equals(Vasia)){
             if (!answer.equals(Anastasiia)) {
 
-                System.out.println("Добрый день, а вы кто?");
+                System.out.println(other);
             }
         }
 
@@ -39,7 +39,7 @@ public class HomeWorkMain1_3 {
             System.out.println("Я тебя так долго ждал");
         }
         else {
-            System.out.println("Добрый день, а вы кто?");
+            System.out.println(other);
         }
 
         System.out.println("Введите Ваше имя");
@@ -52,7 +52,7 @@ public class HomeWorkMain1_3 {
                  System.out.println("Я тебя так долго ждал");
                  break;
               default:
-                  System.out.println("Добрый день, а вы кто?");
+                  System.out.println(other);
         }
 
 

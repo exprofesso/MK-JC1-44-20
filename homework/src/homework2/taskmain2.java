@@ -46,5 +46,21 @@ public class taskmain2 {
         System.out.println("\n");
 
 
+        // Задание 2.2
+        System.out.println("\n");
+        System.out.println("Каждый второй элемент массива\n");
+        int homework4 [] = new int[10];
+        for (int  i = 0; i < homework4.length; i++) {
+            homework4[i] = random.nextInt(10);
+            System.out.print(homework4[i]+"\t");
+
+        }
+        System.out.println("");
+        for (int i = 1; i < homework4.length; i+=2 ){
+            System.out.print(homework4[i]+"\t");
+        }
+        System.out.println("\n");
+
+
     }
 }

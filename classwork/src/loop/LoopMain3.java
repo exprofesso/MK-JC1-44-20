@@ -26,6 +26,5 @@ public class LoopMain3 {
 
         }
 
-
     }
 

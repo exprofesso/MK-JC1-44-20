@@ -22,4 +22,6 @@ public class OperatorMain14 {
         System.out.println("Иду в бар!");
 
     }
+
+
 }

@@ -10,21 +10,28 @@ public class ArrayMain1 {
         for (int  i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10);
         }
+            printArray(array);
 
-            System.out.println("initial array:");
-        for (int  i = 0; i < array.length; i++) {
-            System.out.println(array[i] + "  ");
-        }
+
             System.out.println();
         for (int  i = 0; i < array.length; i++) {
             array[i] += 10;   /// увеличение значение каждого элемента на 10
         }
-        System.out.println("new array:");
-        for (int  i = 0; i < array.length; i++) {
-            System.out.println(array[i] + "   ");
-        }
+        printArray(array);
 
         }
+
+
+        // метод для печати массива.
+
+        public static void printArray(int[] arr){
+            System.out.print("array: ");
+            for (int i = 0; i < arr.length; i++){
+                System.out.print(arr[i] + " ");
+            }
+
+        }
+
 
     }
 

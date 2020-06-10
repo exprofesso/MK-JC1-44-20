@@ -5,16 +5,18 @@ import java.util.Scanner;
 public class taskmain1 {
     public static void main(String[] args) {
 
-for (int i = 1; i <= 10; i++){
-    for (int j = 1; j <= 10; j++) {
+        // 1.1
 
-        System.out.print(i * j + " \t");
-    }
-    System.out.println(" ");
-}
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= 10; j++) {
+
+                System.out.print(i * j + " \t");
+            }
+            System.out.println(" ");
+        }
         System.out.println(" \t");
         System.out.println(" \t");
-        for (int i = 2; i < 10; i++){
+        for (int i = 2; i < 10; i++) {
             for (int j = 1; j < 10; j++) {
 
                 System.out.print(i + " * " + j + " = " + i * j + " \t");
@@ -24,33 +26,51 @@ for (int i = 1; i <= 10; i++){
         }
 
 
-
+// 1.2
         System.out.println(" \t");
         System.out.println(" \t");
-        System.out.println("Укажите число до которого хотите создать таблицу умножения\n");
 
+
+        System.out.println("Введитье число от 1 до 12\n");
         Scanner scanner = new Scanner(System.in);
-        int answer = scanner.nextInt();
-
-       for (int i = 1; i <= answer; i++) {
-            for (int j = 1; j <= 10; j++) {
-                System.out.print(i * j + " \t");
-            }
-            System.out.println(" ");
+        int inquiry = scanner.nextInt();
+        if(inquiry > 1 && inquiry < 13){
+            System.out.println("Результат перемножения цифры числа " + inquiry + " получим " + multiply(inquiry));
+        } else {
+            System.out.println("Введите правильное число");
         }
-       int answercash = answer;
+
+
+        // 1.3
+
+        int answercash = multiply(inquiry);
         System.out.println(" \t");
         System.out.println(" \t");
         int sumanswer = 1;
-        while (answer > 0) {
-             int lastDigit = answer % 10;
+        while (answercash > 0) {
+            int lastDigit = answercash % 10;
             sumanswer *= lastDigit;
-            answer /= 10;
+            answercash /= 10;
         }
-        System.out.println("Если перемножить цифры числа " + answercash + " получаем результат " + sumanswer);
-
-
+        System.out.println("Если перемножить цифр числа " + multiply(inquiry) + " получаем результат " + sumanswer);
 
 
     }
+    public static int multiply (int a) {
+        int rezult = 1;
+            for (int i = 1; i <= a; i++) {
+                rezult = rezult * i;
+            }
+        return rezult;
+
+    }
+
+
+
+
+
+
+
+
+
 }

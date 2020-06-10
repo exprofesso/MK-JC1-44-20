@@ -26,7 +26,8 @@ public class taskmain1 {
         }
 
 
-// 1.2
+        // 1.2
+
         System.out.println(" \t");
         System.out.println(" \t");
 
@@ -34,7 +35,7 @@ public class taskmain1 {
         System.out.println("Введитье число от 1 до 12\n");
         Scanner scanner = new Scanner(System.in);
         int inquiry = scanner.nextInt();
-        if(inquiry > 1 && inquiry < 13){
+        if (inquiry > 1 && inquiry < 13) {
             System.out.println("Результат перемножения цифры числа " + inquiry + " получим " + multiply(inquiry));
         } else {
             System.out.println("Введите правильное число");
@@ -43,19 +44,22 @@ public class taskmain1 {
 
         // 1.3
 
-        int answercash = multiply(inquiry);
         System.out.println(" \t");
+        System.out.println("Введитье положительное число \n");
+        int answer = scanner.nextInt();
+        int answercash = answer;
         System.out.println(" \t");
         int sumanswer = 1;
-        while (answercash > 0) {
-            int lastDigit = answercash % 10;
+        while (answer > 0) {
+            int lastDigit = answer % 10;
             sumanswer *= lastDigit;
-            answercash /= 10;
+            answer /= 10;
         }
-        System.out.println("Если перемножить цифр числа " + multiply(inquiry) + " получаем результат " + sumanswer);
-
+            System.out.println("Если перемножить цифры числа " + answercash + " получаем результат " + sumanswer);
 
     }
+
+
     public static int multiply (int a) {
         int rezult = 1;
             for (int i = 1; i <= a; i++) {
@@ -64,13 +68,4 @@ public class taskmain1 {
         return rezult;
 
     }
-
-
-
-
-
-
-
-
-
 }

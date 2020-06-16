@@ -1,69 +1,54 @@
 package homework3;
 
+import java.util.Arrays;
+
 public class MergeSortMain {
     public static void main(String[] args) {
         int massiv[] = new int[]{5, 3, 2, 6, 7, 8, 9, 4, 1, 9, 5, 10, 22, 17};
-
-       divide(massiv);
-
+       int answer [] = divide(massiv);
+        System.out.println(Arrays.toString(answer));
 
 
     }
 
 
     // сортировка слиянием
-        public static int [] divide (int[] arr) {
-        if (arr == null){
-        return null;
-        }
-        if (arr.length < 2){
-            return arr;
-        }
-
-        int arr1[] = new int[arr.length / 2];
-        int arr2[] = new int[arr.length - arr.length / 2];
-
-        System.arraycopy(arr, 0, arr1, 0, arr.length/2); // первая половина
-        System.arraycopy(arr1, arr.length / 2, arr2, 0, arr.length - arr.length / 2); // вторая половина
-
-        arr1 = divide(arr1);
-        arr2 = divide(arr2);
-        return megaArr(arr1, arr2);
-}
-
+    public static int[] divide(int[] arr) {
+        int[] arr1 = Arrays.copyOf(arr, arr.length);
+        int[] arr2 = new int[arr.length];
+        int[] result = megaArr(arr1, arr2, 0, arr.length);
+        return result;
+    }
 
             // объединение двух массивов.
 
-        public static  int[] megaArr (int[] arr, int[] arr1){
-
-        int [] arr2 = new int[arr.length + arr1.length];
-        int pointA = 0;
-        int pointB = 0;
-
-        for (int i = 0; i < arr2.length; i++){
-
-            if (pointA == arr.length){
-                arr2[i] = arr1[pointB];
-                pointB++;
-
-        } else if (pointB == arr1.length){
-                arr2[i] = arr[pointA];
-                pointA++;
-
-            } else if (arr[pointA] < arr1[pointB]){
-                arr2[i] = arr[pointA];
-                pointA++;
-
-            } else {
-
-                arr2[i] = arr1[pointB];
-                pointB++;
-            }
+       public static int[] megaArr (int[] arr1, int[] arr2, int pointA, int pointB){
 
 
-        }
+               if (pointA >= pointB - 1) {
+                   return arr1;
+               }
 
-        return arr2;
+               int middle = pointA + (pointB - pointA) / 2;
+               int[] sorted1 = megaArr(arr1, arr2, pointA, middle);
+               int[] sorted2 = megaArr(arr1, arr2, middle, pointB);
+
+               int index1 = pointA;
+               int index2 = middle;
+               int destIndex = pointA;
+
+               int[] result = sorted1 == arr1 ? arr2 : arr1;
+               while (index1 < middle && index2 < pointB) {
+                   result[destIndex++] = sorted1[index1] < sorted2[index2]
+                           ? sorted1[index1++] : sorted2[index2++];
+               }
+               while (index1 < middle) {
+                   result[destIndex++] = sorted1[index1++];
+               }
+               while (index2 < pointB) {
+                   result[destIndex++] = sorted2[index2++];
+               }
+               return result;
 
         }
 

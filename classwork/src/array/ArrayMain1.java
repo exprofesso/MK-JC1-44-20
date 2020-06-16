@@ -1,5 +1,6 @@
 package array;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class ArrayMain1 {
@@ -19,6 +20,7 @@ public class ArrayMain1 {
         }
         printArray(array);
 
+
         }
 
 
@@ -29,8 +31,8 @@ public class ArrayMain1 {
             for (int i = 0; i < arr.length; i++){
                 System.out.print(arr[i] + " ");
             }
-
         }
+
 
 
     }

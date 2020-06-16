@@ -2,7 +2,7 @@ package homework2;
 
 
 
-public class taskmail3 {
+public class taskmain3 {
     public static void main(String[] args) {
 
         System.out.println("Сортировка пузырьком на Java");

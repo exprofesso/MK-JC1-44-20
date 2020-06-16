@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56efad7b-64a8-472e-96b5-33ace3507bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework/src/homework3/BubbleSortMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/src/homework3/InsertionSortMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/src/homework3/MergeSortMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/src/homework3/SelectionSortMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/src/homework3/ShakerSortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwork/src/obj/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwork/src/obj/ObjectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwork/src/strings/IntegerExperementMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwork/src/strings/StringMain5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/array/ArrayMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/array/ArrayMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/src/homework2/taskmail3.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/homework2/taskmain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/src/strings/StringMain4.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/strings/StringMain4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,46 +36,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/src/homework3/SelectionSortMain.java">
+        <entry file="file://$PROJECT_DIR$/classwork/src/obj/Man.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/src/homework3/BubbleSortMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/src/homework3/ShakerSortMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="75" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/src/homework3/InsertionSortMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="233">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework/src/homework3/MergeSortMain.java">
+        <entry file="file://$PROJECT_DIR$/classwork/src/obj/ObjectMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="70">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,6 +69,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>multiply</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,7 +116,6 @@
         <option value="$PROJECT_DIR$/classwork/src/operators/OperatorMain14.java" />
         <option value="$PROJECT_DIR$/classwork/src/strings/StringMain1.java" />
         <option value="$PROJECT_DIR$/classwork/src/strings/StringMain3.java" />
-        <option value="$PROJECT_DIR$/classwork/src/strings/StringMain4.java" />
         <option value="$PROJECT_DIR$/classwork/src/strings/StringMain2.java" />
         <option value="$PROJECT_DIR$/classwork/src/operators/OperatorMain2.java" />
         <option value="$PROJECT_DIR$/homework/src/homework2/taskmain1.java" />
@@ -143,6 +126,11 @@
         <option value="$PROJECT_DIR$/homework/src/homework3/InsertionSortMain.java" />
         <option value="$PROJECT_DIR$/homework/src/homework3/ShakerSortMain.java" />
         <option value="$PROJECT_DIR$/homework/src/homework3/MergeSortMain.java" />
+        <option value="$PROJECT_DIR$/classwork/src/strings/StringMain5.java" />
+        <option value="$PROJECT_DIR$/classwork/src/strings/IntegerExperementMain.java" />
+        <option value="$PROJECT_DIR$/classwork/src/strings/StringMain4.java" />
+        <option value="$PROJECT_DIR$/classwork/src/obj/Man.java" />
+        <option value="$PROJECT_DIR$/classwork/src/obj/ObjectMain.java" />
       </list>
     </option>
   </component>
@@ -152,10 +140,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="829" />
+    <option name="width" value="1280" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,22 +169,7 @@
               <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
               <item name="classwork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="homework3" type="462c0819:PsiDirectoryNode" />
+              <item name="obj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
@@ -205,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,13 +204,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortMain">
-    <configuration name="BubbleSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.BubbleSortMain" />
-      <module name="homework" />
+  <component name="RunManager" selected="Application.ObjectMain">
+    <configuration name="IntegerExperementMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.IntegerExperementMain" />
+      <module name="classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.InsertionSortMain" />
-      <module name="homework" />
+    <configuration name="ObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="obj.ObjectMain" />
+      <module name="classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="obj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.MergeSortMain" />
-      <module name="homework" />
+    <configuration name="StringMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringMain4" />
+      <module name="classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.SelectionSortMain" />
-      <module name="homework" />
+    <configuration name="StringMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringMain5" />
+      <module name="classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShakerSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework3.ShakerSortMain" />
+    <configuration name="taskmain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.taskmain1" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSortMain" />
-        <item itemvalue="Application.InsertionSortMain" />
-        <item itemvalue="Application.ShakerSortMain" />
-        <item itemvalue="Application.BubbleSortMain" />
-        <item itemvalue="Application.SelectionSortMain" />
+        <item itemvalue="Application.ObjectMain" />
+        <item itemvalue="Application.StringMain4" />
+        <item itemvalue="Application.IntegerExperementMain" />
+        <item itemvalue="Application.StringMain5" />
+        <item itemvalue="Application.taskmain1" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +311,8 @@
       <workItem from="1591804831784" duration="5579000" />
       <workItem from="1592146096004" duration="2759000" />
       <workItem from="1592233163403" duration="9088000" />
-      <workItem from="1592295669607" duration="2535000" />
+      <workItem from="1592295669607" duration="4959000" />
+      <workItem from="1592321124739" duration="7034000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 3">
       <created>1591553250160</created>
@@ -382,17 +356,38 @@
       <option name="project" value="LOCAL" />
       <updated>1591810866402</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="homework3">
+      <created>1592313874077</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592313874077</updated>
+    </task>
+    <task id="LOCAL-00008" summary="homework3">
+      <created>1592314004835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592314004835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework3 upgrade">
+      <created>1592316239994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592316239994</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136841000" />
+    <option name="totallyTimeSpent" value="146299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18597998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1881259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,8 +396,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49956858" weight="0.091566265" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50271004" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49956858" visible="true" weight="0.36265224" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5020298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,7 +406,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3292517" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004314" side_tool="true" weight="0.30340135" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3727891" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3721245" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24935289" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,7 +468,9 @@
     <MESSAGE value="homework2(1-2-3 task)" />
     <MESSAGE value="homework2(1-2-3 task) upgrade 1.2 task" />
     <MESSAGE value="homework2(1-2-3 task) upgrade 1.2.2 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework2(1-2-3 task) upgrade 1.2.2 task" />
+    <MESSAGE value="homework3" />
+    <MESSAGE value="homework3 upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework3 upgrade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,27 +516,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classwork/src/operators/OperatorMain4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/operators/OperatorMain5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/workbook/TaskMain3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework/src/workbook/TaskMain4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -668,30 +644,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/loop.java" />
     <entry file="file://$PROJECT_DIR$/classwork/classwork.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/loop/LoopMain2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/homework2/taskmain2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -757,24 +705,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/strings/String.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="967" column="64" lean-forward="true" selection-start-line="967" selection-start-column="64" selection-end-line="967" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/strings/StringMain3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/strings/StringMain4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -806,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/homework2/taskmain3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/array/ArrayMain1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -820,13 +747,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/homework2/taskmain1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -860,8 +780,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/src/homework3/MergeSortMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="15">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/homework2/taskmain2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/homework2/taskmain3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/strings/StringMain5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/homework2/taskmain1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/strings/StringMain4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/strings/IntegerExperementMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/obj/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/obj/ObjectMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>

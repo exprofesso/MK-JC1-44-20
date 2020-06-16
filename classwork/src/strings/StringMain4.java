@@ -11,5 +11,13 @@ public class StringMain4 {
         System.out.println( str == name);
         System.out.println( str.equals(name));
 
+
+
+        String s = String.valueOf(1000);
+        String s1 = str.valueOf(1000);
+
+        System.out.println(s);
+        System.out.println(s1);
+
     }
 }

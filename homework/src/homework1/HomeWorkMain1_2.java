@@ -1,4 +1,4 @@
-package operators;
+package homework1;
 
 public class HomeWorkMain1_2 {
 

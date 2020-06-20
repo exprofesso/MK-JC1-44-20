@@ -1,4 +1,4 @@
-package obj;
+package obj.core;
 
 public class Man {
 
@@ -27,9 +27,12 @@ public class Man {
          System.out.println("Привет, " + name);
          }
 
+
     public void grou() {
         this.hairLergth += 1; // лучше всегда писать this если (мы работаем с переменной класса) поля класса должны быть приватными
         // методы гетеры и сеторы
      }
+
+
 
 }

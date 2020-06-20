@@ -1,6 +1,4 @@
-package operators;
-
-import java.util.Scanner;
+package homework1;
 
 public class HomeWorkMain1_1 {
     public static void main(String[] args) {

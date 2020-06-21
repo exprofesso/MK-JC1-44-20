@@ -3,7 +3,7 @@ package homework4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TowerHanoiMain {
+public class TowerHanoiAutomaticMain {
     public static void main(String[] args) {
 
         String d = "*";
@@ -51,38 +51,37 @@ public class TowerHanoiMain {
             System.out.println();
 
         }
-
-
         while (!Arrays.deepEquals(etalon, arr)){
-            System.out.println("Бублик с каким номером вы хотите переместить?");
-            String bagel = scanner.next();
+            int run = r*r-1;
 
-            for (int i = 0; i < arr.length; i++) {
-                for (int j = 0; j < arr[i].length; j++) {
-                    if (arr[i][j].equals(bagel)) {
-                        arr[i][j] = d;
-                    }
-                }
-            }
-
-            System.out.println("Укажите число в строке куда мы переносим единицу?");
-            int a1 = scanner.nextInt() - 1;
-            System.out.println("Укажите число в столбце куда мы переносим единицу?");
-            int a2 = scanner.nextInt() - 1;
-            arr[a1][a2] = bagel;
+           for (int z = 0; z < run; z++ ){
+               String bagel = String.valueOf(z);
 
 
-            for (int i = 0; i < arr.length; i++) {
-                for (int j = 0; j < arr[i].length; j++) {
-                    System.out.print(arr[i][j] + "\t");
-                }
-                System.out.println();
-            }
+
+
+               for (int i = 0; i < arr.length; i++) {
+                   for (int j = 0; j < arr[i].length; j++) {
+                       if (arr[i][j].equals(bagel)) {
+                           arr[i][j] = d;
+                       }
+                   }
+               }
+
+
+
+           }
+
+
+
+
 
         }
 
 
 
-    }
 
+
+
+    }
 }

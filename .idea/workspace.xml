@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56efad7b-64a8-472e-96b5-33ace3507bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classwork/src/obj/ObjectMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/obj/core/ManWithConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/obj/core/ManWithConstructorAndSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/obj/core/ObjectMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/src/homework4/TowerHanoiMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/src/homework4/TowerHanoiAutomaticMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/obj/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/obj/core/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/obj/ObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/obj/ObjectMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain10.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain11.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain12.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain13.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain14.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain4.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain5.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain6.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain7.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/operators/OperatorMain8.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/homework1/OperatorMain8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/homework1/HomeWorkMain1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/homework1/HomeWorkMain1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/src/operators/HomeWorkMain1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/homework1/HomeWorkMain1_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/homework4/TowerHanoiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework/src/homework4/TowerHanoiMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +33,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework/src/homework4/TowerHanoiMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="65" column="13" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="65" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework/src/homework4/TowerHanoiAutomaticMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-634">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework/src/workbook/TaskMain6.java" />
         <option value="$PROJECT_DIR$/homework/src/workbook/TaskMain7.java" />
         <option value="$PROJECT_DIR$/homework/src/workbook/TaskMain8.java" />
         <option value="$PROJECT_DIR$/homework/src/workbook/TaskMain9.java" />
@@ -154,8 +146,9 @@
         <option value="$PROJECT_DIR$/classwork/src/obj/core/ManWithConstructorAndSetter.java" />
         <option value="$PROJECT_DIR$/classwork/src/obj/core/ObjectMain3.java" />
         <option value="$PROJECT_DIR$/classwork/src/obj/core/Untitled" />
-        <option value="$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java" />
         <option value="$PROJECT_DIR$/homework/src/homework4/TowerHanoiMain.java" />
+        <option value="$PROJECT_DIR$/homework/src/homework4/TowerHanoiAutomaticMain.java" />
+        <option value="$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java" />
       </list>
     </option>
   </component>
@@ -206,6 +199,12 @@
             </path>
             <path>
               <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="homework4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MK-JC1-44-20" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -238,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TowerHanoiMain">
+  <component name="RunManager" selected="Application.Calcularor">
     <configuration name="ArrayMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ArrayMain1" />
       <module name="classwork" />
@@ -306,9 +305,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calcularor" />
         <item itemvalue="Application.TowerHanoiMain" />
         <item itemvalue="Application.ArrayMain1" />
-        <item itemvalue="Application.Calcularor" />
         <item itemvalue="Application.ObjectMain2" />
         <item itemvalue="Application.ObjectMain" />
       </list>
@@ -350,7 +349,7 @@
       <workItem from="1592414424757" duration="460000" />
       <workItem from="1592493949347" duration="6464000" />
       <workItem from="1592591675563" duration="586000" />
-      <workItem from="1592633952608" duration="12464000" />
+      <workItem from="1592633952608" duration="17209000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 3">
       <created>1591553250160</created>
@@ -422,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1592332299560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="classwork_5">
+      <created>1592690070572</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592690070572</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166373000" />
+    <option name="totallyTimeSpent" value="171118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="0" />
@@ -562,13 +568,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classwork/src/homework1/OperatorMain6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/homework1/OperatorMain7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -876,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/array/ArrayMain1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -895,8 +887,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/src/homework4/TowerHanoiMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/homework4/TowerHanoiAutomaticMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/obj/core/Calcularor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>

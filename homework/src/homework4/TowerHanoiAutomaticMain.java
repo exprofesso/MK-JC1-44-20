@@ -1,19 +1,17 @@
 package homework4;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class TowerHanoiAutomaticMain {
     public static void main(String[] args) {
-
         String d = "*";
 
         System.out.println("Введите высоту башни");
         Scanner scanner = new Scanner(System.in);
         int r = scanner.nextInt();
 
-//  создание многомерного массива
-        String arr [][] = new String[r][3];
+        //  создание многомерного массива
+        String arr[][] = new String[r][3];
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 arr[i][j] = d;
@@ -21,7 +19,7 @@ public class TowerHanoiAutomaticMain {
 
         }
         // создание массива для проверки
-        String etalon [][] = new String[r][3];
+        String etalon[][] = new String[r][3];
         for (int i = 0; i < etalon.length; i++) {
             for (int j = 0; j < etalon[i].length; j++) {
                 etalon[i][j] = d;
@@ -31,13 +29,13 @@ public class TowerHanoiAutomaticMain {
 
 
         // заполнение первого столбца в первом массиве
-        for (int i = 0; i < r; i++){
-            int temp =  i + 1;
+        for (int i = 0; i < r; i++) {
+            int temp = i + 1;
             arr[i][0] = String.valueOf(temp);
         }
         // заполнение последнего столбца во втором массиве
-        for (int i = 0; i < r; i++){
-            int temp =  i + 1;
+        for (int i = 0; i < r; i++) {
+            int temp = i + 1;
             etalon[i][2] = String.valueOf(temp);
         }
 
@@ -51,37 +49,57 @@ public class TowerHanoiAutomaticMain {
             System.out.println();
 
         }
-        while (!Arrays.deepEquals(etalon, arr)){
-            int run = r*r-1;
-
-           for (int z = 0; z < run; z++ ){
-               String bagel = String.valueOf(z);
 
 
+// start_peg начальный столбик
+// destination_peg конечный столбик
+// buffer_peg промежуточный столбик
+// plate_quantity изначальное количество колец (будет уменьшаться алгоритмом
 
 
-               for (int i = 0; i < arr.length; i++) {
-                   for (int j = 0; j < arr[i].length; j++) {
-                       if (arr[i][j].equals(bagel)) {
-                           arr[i][j] = d;
-                       }
-                   }
-               }
-
-
-
-           }
-
-
-
-
-
-        }
-
-
-
-
+        int start_peg = 1, destination_peg = 3, buffer_peg = 2, plate_quantity = r;
+        hanoiTowers(plate_quantity, start_peg, destination_peg, buffer_peg, arr,r);
 
 
     }
+    public static void hanoiTowers(int quantity, int from, int to, int buf_peg, String[][] arr, int r)	{
+        if (quantity != 0)
+        {
+            hanoiTowers(quantity-1, from, buf_peg, to,arr,r);
+            System.out.println("" + from + " -> " + to );
+
+            //Создаем переменную to_border, чтобы определить в какой элемент массива вставлять кольцо
+            int to_border=r-1;
+            //ищем пустое место снизу столбика
+            for (int i = r-1; i >-1; i--) {
+                if (arr[i][to-1]=="*"){
+                    to_border=i;break;
+                }
+            }
+            //Создаем переменную from_border, чтобы определить из какого элемента массива забирать кольцо
+            int from_border=0;
+            //ищем кольцо сверху столбика
+            for (int i = 0; i <r; i++) {
+                if (arr[i][from-1]!="*"){
+                    from_border=i;break;
+                }
+            }
+            //присваиваем элементу массива столбика получателя элемент массива столбика донора (перекидываем кольцо)
+            arr[to_border][to-1]=arr[from_border][from-1];
+            //удаляем кольцо из элемента массива солбика донора
+            arr[from_border][from-1]="*";
+
+            // выведение на экран
+
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr[i].length; j++) {
+                    System.out.print(arr[i][j] + "\t");
+                }
+                System.out.println();
+            }
+
+            hanoiTowers(quantity-1, buf_peg, to, from,arr,r);
+        }
+    }
+
 }

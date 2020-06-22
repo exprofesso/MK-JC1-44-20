@@ -2,8 +2,10 @@ package homework4;
 
 import java.util.Scanner;
 
+
+
 public class TowerHanoiAutomaticMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         String d = "*";
 
         System.out.println("Введите высоту башни");
@@ -62,17 +64,18 @@ public class TowerHanoiAutomaticMain {
 
 
     }
-    public static void hanoiTowers(int quantity, int from, int to, int buf_peg, String[][] arr, int r)	{
+    public static void hanoiTowers(int quantity, int from, int to, int buf_peg, String[][] arr, int r) throws InterruptedException {
         if (quantity != 0)
         {
+            String d = "*";
             hanoiTowers(quantity-1, from, buf_peg, to,arr,r);
-            System.out.println("" + from + " -> " + to );
+            System.out.println("\n"+"" + from + " -----> " + to );
 
             //Создаем переменную to_border, чтобы определить в какой элемент массива вставлять кольцо
             int to_border=r-1;
             //ищем пустое место снизу столбика
             for (int i = r-1; i >-1; i--) {
-                if (arr[i][to-1]=="*"){
+                if (arr[i][to-1].equals(d)){
                     to_border=i;break;
                 }
             }
@@ -80,7 +83,7 @@ public class TowerHanoiAutomaticMain {
             int from_border=0;
             //ищем кольцо сверху столбика
             for (int i = 0; i <r; i++) {
-                if (arr[i][from-1]!="*"){
+                if (!arr[i][from-1].equals(d)){
                     from_border=i;break;
                 }
             }
@@ -95,6 +98,7 @@ public class TowerHanoiAutomaticMain {
                 for (int j = 0; j < arr[i].length; j++) {
                     System.out.print(arr[i][j] + "\t");
                 }
+                Thread.sleep(100);
                 System.out.println();
             }
 

@@ -20,14 +20,6 @@ public class TowerHanoiAutomaticMain {
             }
 
         }
-        // создание массива для проверки
-        String etalon[][] = new String[r][3];
-        for (int i = 0; i < etalon.length; i++) {
-            for (int j = 0; j < etalon[i].length; j++) {
-                etalon[i][j] = d;
-            }
-
-        }
 
 
         // заполнение первого столбца в первом массиве
@@ -35,11 +27,7 @@ public class TowerHanoiAutomaticMain {
             int temp = i + 1;
             arr[i][0] = String.valueOf(temp);
         }
-        // заполнение последнего столбца во втором массиве
-        for (int i = 0; i < r; i++) {
-            int temp = i + 1;
-            etalon[i][2] = String.valueOf(temp);
-        }
+
 
 
         // выведение на экран

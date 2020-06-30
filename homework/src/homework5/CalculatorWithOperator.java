@@ -25,21 +25,21 @@ public class CalculatorWithOperator {
     }
     // модуль числа
 
-    public int modul(int a){
-        if (a > 0){
+    public int modul(int a) {
+        if (a > 0) {
             return a - 0;
-        } if (a < 0 ){
+        }
+        if (a < 0) {
             return 0 - a;
         } else {
             return 0;
         }
-
-
+        // корень числа
     }
+        public double sqrt(double a) { return Math.sqrt(a); };
 
 
 
-    // корень числа
 
 
 }

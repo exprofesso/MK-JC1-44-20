@@ -81,4 +81,3 @@ public abstract class SiteLoader {
      */
     protected abstract double handle(String content, Currency currencyName);
 }
-

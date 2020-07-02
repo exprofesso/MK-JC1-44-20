@@ -5,6 +5,8 @@ public class Test {
         NBRBLoader loader = new NBRBLoader();
         belapbLoader loader1 = new belapbLoader();
         alfaLoader loader2 = new alfaLoader();
+        sberLoader loader3 = new sberLoader();
+
 
         System.out.println("Нац Банк");
 
@@ -24,7 +26,12 @@ public class Test {
         System.out.println(loader2.load(SiteLoader.Currency.USD));
         System.out.println(loader2.load(SiteLoader.Currency.EUR));
         System.out.println(loader2.load(SiteLoader.Currency.RUS));
+        System.out.println();
 
+        System.out.println("БПС-Сбербанк");
+        System.out.println(loader3.load(SiteLoader.Currency.USD));
+        System.out.println(loader3.load(SiteLoader.Currency.EUR));
+        System.out.println(loader3.load(SiteLoader.Currency.RUS));
 
 
 

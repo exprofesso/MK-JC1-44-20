@@ -68,6 +68,6 @@ public class Man implements Comparable<Man> {
 
     @Override
     public int compareTo(Man o) {
-        return hairLergth - o.hairLergth;
+        return o.hairLergth - hairLergth;
     }
 }

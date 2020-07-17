@@ -14,23 +14,47 @@ import java.util.Random;
 public class AnimalMain {
     public static void main(String[] args) {
 
+        AnimalMain array = new AnimalMain();
+        array.AminalArrayList();
 
 
     }
 
-    public void AminalArrayList (){
+    public static void AminalArrayList (){
         AnimalAgeComparator comparator = new AnimalAgeComparator();
         Random random = new Random();
-
+        long lStartTime = System.nanoTime();
         ArrayList<Animal> animals = new ArrayList<>();
 
-        for(int i = 0; i < 1_000; i++){
+        for(int i = 0; i < 1_000_000; i++){
             int age = random.nextInt(100);
             animals.add(new Animal(age, RandomString.StringRandom(8)));
         }
 
-
         animals.sort(comparator);
+
+        long lEndTime = System.nanoTime();
+
+        long output = lEndTime - lStartTime;
+
+        System.out.println("Elapsed time in milliseconds: " + output/1000000);   //Elapsed time in milliseconds: 440
+
+        lStartTime = System.nanoTime();
+
+        for(int i = 999_999; i > 0; i--) {
+            animals.remove(i);
+        }
+
+        lEndTime = System.nanoTime();
+
+        output = lEndTime - lStartTime;
+
+        System.out.println("Elapsed time in milliseconds: " + output/1000000); // Elapsed time in milliseconds: 8
+
+
+
+
+
 
     }
 

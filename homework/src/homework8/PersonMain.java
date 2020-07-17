@@ -1,6 +1,7 @@
 package homework8;
 
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 /*
@@ -16,6 +17,9 @@ public class PersonMain {
 
     public static void main(String[] args) {
 
+        PersonMain linked = new PersonMain();
+        PersolalLinkedList();
+
 
 
 
@@ -27,11 +31,33 @@ public class PersonMain {
         PersonPassLengthComparator comparator = new PersonPassLengthComparator();
         LinkedList<Person> Person = new LinkedList();
 
-        for (int i = 0; i < 1_000; i++ ) {
+
+        long lStartTime = System.nanoTime();
+        for (int i = 0; i < 1_000_000; i++ ) {
             Person.add(new Person(RandomString.StringRandom(6), RandomString.StringRandom(6)));
 
         }
         Person.sort(comparator);
+
+        long lEndTime = System.nanoTime();
+
+
+        long output = lEndTime - lStartTime;
+
+        System.out.println("Elapsed time in milliseconds: " + output/1000000); // Elapsed time in milliseconds: 2963
+
+
+        lStartTime = System.nanoTime();
+        Iterator<Person> iterator = Person.iterator();
+        while (iterator.hasNext()){
+            Person.remove(0);
+        }
+        lEndTime = System.nanoTime();
+
+        output = lEndTime - lStartTime;
+
+        System.out.println("Elapsed time in milliseconds: " + output/1000000);  //Elapsed time in milliseconds: 35
+
 
     }
 

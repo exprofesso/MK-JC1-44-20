@@ -1,8 +1,10 @@
 package obj.core;
 
+import java.io.IOException;
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Man implements Comparable<Man> {
+public class Man implements Comparable<Man>, Serializable {
 
     private String name;
     private int hairLergth;
@@ -51,6 +53,16 @@ public class Man implements Comparable<Man> {
         this.hairLergth += 1; // лучше всегда писать this если (мы работаем с переменной класса) поля класса должны быть приватными
         // методы гетеры и сеторы
      }
+    private void writeObject(java.io.ObjectOutputStream out) throws IOException{
+        out.writeObject(this.name);
+        out.writeInt(this.hairLergth);
+    }
+
+    private void readObject(java.io.ObjectInputStream in) throws IOException, ClassNotFoundException{
+        this.name = (String) in.readObject();
+        this.hairLergth = in.readInt();
+    }
+
 
     @Override
     public boolean equals(Object o) {

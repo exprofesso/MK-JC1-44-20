@@ -1,7 +1,8 @@
 package exceptions;
 
-public class ExceptionsMain2 {
+import java.io.IOException;
 
+public class ExceptionsMain2 {
     public static void main(String[] args) {
         try {
             System.out.println(method1(1));
@@ -9,38 +10,34 @@ public class ExceptionsMain2 {
             System.out.println(method1(99));
             System.out.println(method1(-1));
         } catch (IllegalArgumentException e){
-            System.out.println("Мы получили ошибку " + e.getMessage());
-        }
-        catch (Exception e) {
-            System.out.println("Мы получили ошибку " + e.getMessage());
-        }
-        catch (Throwable e){
-            System.out.println("Все очень плохо");
+            System.out.println("Мы получили ошибку: " + e.getMessage());
+        } catch (Exception e){
+            System.out.println("Мы получили ошибку: " + e.getMessage());
+        } catch (Throwable e){
+            System.out.println("Всё очень плохо");
         }
     }
 
     public static int method1(int a){
-        if (a < 51) {
-
+        if(a < 51){
             return method3(a);
+        } else {
+            return method2(a);
         }
-        return method2(a);
     }
+
     public static int method2(int a){
         if(a == 10){
             return method1(a);
+        } else {
+            return method3(a);
         }
-        return method3(a);
     }
+
     public static int method3(int a){
         if(a > 50){
             throw new IllegalArgumentException("Числа не могут быть более 50");
         }
         return 1;
     }
-
-
-
-
-
 }

@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56efad7b-64a8-472e-96b5-33ace3507bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesInputMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesMain9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/file/FilesOutputMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/lambda/IHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/lambda/LambdaMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/ConsoleNotifySender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/FakeFalseNotifySender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/FakeTrueNotifySender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/INotifySender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/SolidMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/SolidMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/VIberNotifySender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/solid/ViberAndConsoleNotifySender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classwork/src/threads/ThreadsMain7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwork/src/solid/SelectNotifySender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain10.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain9.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classwork/src/obj/core/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/obj/core/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/src/solid/SolidMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/src/solid/SolidMain2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/INotifySender.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -76,17 +44,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/SolidMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/SolidMain2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+            <state relative-caret-position="255">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -94,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/ConsoleNotifySender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="30">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -103,8 +71,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/ViberAndConsoleNotifySender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classwork/src/solid/SelectNotifySender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classwork/src/solid/VIberNotifySender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -112,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/FakeFalseNotifySender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#142#143#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
@@ -123,23 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classwork/src/solid/VIberNotifySender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classwork/src/solid/FakeTrueNotifySender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -167,6 +146,7 @@
       <find>USD</find>
       <find>,3950</find>
       <find>росси</find>
+      <find>ViberAndConsoleNotifySender</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain1.java" />
         <option value="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain2.java" />
         <option value="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain3.java" />
         <option value="$PROJECT_DIR$/classwork/src/exceptions/ExceptionsMain9.java" />
@@ -219,13 +198,14 @@
         <option value="$PROJECT_DIR$/classwork/src/com/company/Test3.java" />
         <option value="$PROJECT_DIR$/classwork/src/threads/ThreadsMain10.java" />
         <option value="$PROJECT_DIR$/classwork/src/solid/ISendNotify.java" />
-        <option value="$PROJECT_DIR$/classwork/src/solid/ConsoleNotifySender.java" />
         <option value="$PROJECT_DIR$/classwork/src/solid/FakeNotifySender.java" />
         <option value="$PROJECT_DIR$/classwork/src/solid/VIberNotifySender.java" />
         <option value="$PROJECT_DIR$/classwork/src/solid/SolidMain.java" />
         <option value="$PROJECT_DIR$/classwork/src/solid/FakeFalseNotifySender.java" />
-        <option value="$PROJECT_DIR$/classwork/src/solid/SolidMain2.java" />
+        <option value="$PROJECT_DIR$/classwork/src/solid/ConsoleNotifySender.java" />
         <option value="$PROJECT_DIR$/classwork/src/solid/ViberAndConsoleNotifySender.java" />
+        <option value="$PROJECT_DIR$/classwork/src/solid/SolidMain2.java" />
+        <option value="$PROJECT_DIR$/classwork/src/solid/SelectNotifySender.java" />
       </list>
     </option>
   </component>
@@ -235,10 +215,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1539" />
-    <option name="height" value="1123" />
+    <option name="height" value="1124" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +252,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -464,6 +444,7 @@
       <workItem from="1595808014391" duration="927000" />
       <workItem from="1595949428197" duration="4468000" />
       <workItem from="1596122745680" duration="5421000" />
+      <workItem from="1596283380921" duration="11178000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 3">
       <created>1591553250160</created>
@@ -633,17 +614,24 @@
       <option name="project" value="LOCAL" />
       <updated>1595022341732</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="threads">
+      <created>1596283770609</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1596283770609</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344293000" />
+    <option name="totallyTimeSpent" value="355471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1913" height="1123" extended-state="6" />
+    <frame x="0" y="23" width="1539" height="1124" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15820417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119572476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,7 +640,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.37245393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.496994" visible="true" weight="0.2848837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.314258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,13 +649,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32920355" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3292517" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021299" side_tool="true" weight="0.3478682" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50300604" side_tool="true" weight="0.37209302" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.31976745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.249165" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24873738" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32932532" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32891414" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32932532" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -768,7 +756,8 @@
     <MESSAGE value="homework_7 1-3" />
     <MESSAGE value="homework_8" />
     <MESSAGE value="homework_8_full" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_8_full" />
+    <MESSAGE value="threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="threads" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,16 +816,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classwork/src/threads/ThreadsMain5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/threads/ThreadsMain6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1146,38 +1125,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/solid/SolidMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/solid/INotifySender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/solid/SolidMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/solid/ConsoleNotifySender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/solid/ViberAndConsoleNotifySender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/solid/FakeFalseNotifySender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
@@ -1185,28 +1150,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/solid/VIberNotifySender.java">
+    <entry file="file://$PROJECT_DIR$/classwork/src/solid/FakeTrueNotifySender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/src/solid/FakeTrueNotifySender.java">
+    <entry file="file://$PROJECT_DIR$/classwork/src/solid/VIberNotifySender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/solid/ViberAndConsoleNotifySender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/solid/ConsoleNotifySender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork/src/solid/SolidMain2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/src/solid/SelectNotifySender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

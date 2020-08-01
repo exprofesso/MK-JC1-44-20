@@ -3,7 +3,7 @@ package solid;
 public class SolidMain2 {
     public static void main(String[] args) {
         boolean sended = false;
-        int senderType = 4;
+        int senderType = 5;
        do {
             INotifySender sender = getCurrenrtSender(senderType);
 
@@ -30,6 +30,8 @@ public class SolidMain2 {
                 return new VIberNotifySender();
             case 4:
                 return new ViberAndConsoleNotifySender();
+            case 5:
+                return new SelectNotifySender();
                 default:
                     return new ConsoleNotifySender();
         }
